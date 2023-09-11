@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Include Bootstrap CSS and Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+   <!-- Include your custom CSS -->
+    <link href="timer.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+    <div class="row">
+        
+        <!-- heading -->
+        <div class="col-8 offset-4" id="heading">
+            <h1>Stop Watch</h1>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-8 offset-2" id="container">
+            <div class="row mt-5">
+                <div class="col-2 offset-2 time">
+                    <span id="hours">00</span>
+                </div>
+                <div class="col-1" id="seperator">
+                    <span>:</span>
+                </div>
+                <div class="col-2 time">
+                    <span id="minutes">00</span>
+                </div>
+                <div class="col-1" id="seperator">
+                        <span>:</span>
+                </div>
+                <div class="col-2 time">
+                    <span id="seconds">00</span>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="offset-lg-3 col-12 col-lg-2">
+                    <button id="stop">Stop</button>
+                </div>
+                <div class="col-12 col-lg-2 start">
+                    <button id="start">Start</button>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <button id="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include your JavaScript file at the end for better page load performance -->
+    <script src="timer.js"></script>
+</body>
+</html>

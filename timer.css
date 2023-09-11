@@ -1,0 +1,53 @@
+#container{
+    background-color: rgb(215, 204, 204);
+    height:30rem;
+    margin-top: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+body,html{
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: rgb(23,143,254);
+}
+#heading h1{
+    margin-top: 5%;
+    font-size: 4rem;
+    color: rgb(215, 204, 204);;
+    width: 100%;
+}
+.time{
+    height:180px;
+    width: 100px;
+    box-shadow: 5px 10px 20px grey inset;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+}
+
+#seperator{
+    font-size: 5rem;
+    height:150px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    display:flex
+}
+button{
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: rgb(215,204,204);
+    color:grey;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.start button{
+    background-color: rgb(247,72,119);
+    color: white;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+#stop:hover,#reset:hover {
+    background-color: rgb(23,143,254);
+    color: white;
+}
